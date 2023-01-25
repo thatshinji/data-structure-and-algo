@@ -28,7 +28,7 @@ class MyList {
 
     public set(index: number, item: any):void {
         if (index >= this._size) throw new Error('索引越界')
-        this._size[index] = item
+        this.items[index] = item
     }
 
     /**
