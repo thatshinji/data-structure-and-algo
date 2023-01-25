@@ -1,0 +1,23 @@
+{
+  "name": "data-structure-and-algo",
+  "version": "1.0.0",
+  "description": "data structure and algorithm demo repo",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatshinji/data-structure-and-algo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatshinji/data-structure-and-algo/issues"
+  },
+  "homepage": "https://github.com/thatshinji/data-structure-and-algo#readme"
+}
