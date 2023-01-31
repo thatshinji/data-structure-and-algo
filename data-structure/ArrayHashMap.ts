@@ -52,10 +52,11 @@ class ArrayHashMap {
     let arr:(Entry|null)[] = []
     for (let i = 0; i < this.bucket.length; i++) {
       if (this.bucket[i]){
-        arr.push({
-          key: this.bucket[i]!.key,
-          value: this.bucket[i]!.value
-        })
+        arr.push(this.bucket[i])
+        // arr.push({
+        //   key: this.bucket[i]!.key,
+        //   value: this.bucket[i]!.value
+        // })
       }
     }
     return arr
